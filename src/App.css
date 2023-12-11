@@ -203,3 +203,64 @@
   position: relative;
 }
 
+
+
+
+
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+.inicio {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+h1, h2, h3 {
+  color: #354458;
+}
+
+p {
+  color: #575d63;
+}
+
+.contenido {
+  display: flex;
+  justify-content: space-between;
+}
+
+.columna {
+  flex-basis: 45%;
+  margin-bottom: 30px;
+}
+
+.imagen, .video {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.redes-sociales {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.red-social {
+  width: 40px;
+  margin: 0 10px;
+}
+
+.mi-footer {
+  background-color: #354458;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.mi-footer h1,
+.mi-footer h2,
+.mi-footer p {
+  color: #ffffff; /* Esto cambiará el color de la letra a blanco */
+}
